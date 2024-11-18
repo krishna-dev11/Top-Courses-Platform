@@ -36,13 +36,15 @@ useEffect(()=>{
 },[])
 
   return (
-     <div className="h-screen w-screen flex flex-col items-center">
+     <div className="h-screen w-screen flex flex-col items-center overflow-x-hidden">
       
       <Navbar></Navbar>
       
+      <div className="">
       <Filter filterData={filterData} setcategory={setcategory}></Filter>
+      </div>
 
-      {loading ? <Spinner/> : <Cards data={data} category={category}/>};
+      {loading ? <Spinner/> : <Cards data={data} category={category} />};
      
      </div>
   );
