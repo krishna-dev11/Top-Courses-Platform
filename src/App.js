@@ -36,7 +36,7 @@ useEffect(()=>{
 },[])
 
   return (
-     <div className="h-screen w-screen flex flex-col items-center overflow-x-hidden">
+     <div className="h-[1000px] w-screen flex flex-col items-center overflow-x-hidden">
       
       <Navbar></Navbar>
       

@@ -28,7 +28,7 @@ const Cards = ({data,category}) => {
     }
 
   return (
-    <div className='w-screen  bg-bgDark2 flex items-center justify-center'>
+    <div className='w-screen py-20 bg-bgDark2 flex items-center justify-center'>
         <div className='flex flex-wrap gap-4 w-[73%] '>
         {
             getcategory().map((card)=>(
